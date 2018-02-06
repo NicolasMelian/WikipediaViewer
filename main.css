@@ -1,0 +1,58 @@
+html{
+    background: linear-gradient(#ec6990,#85344b);}
+body {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.info {
+    background-color: #a72d4f;
+    padding: 20px;
+    color: white;
+    border: 2px solid #751a34;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.info:hover{
+    opacity: 0.7;
+}
+.input input {
+    border: 0;
+    border-bottom: 3px solid #5a2836;
+    width: 100%;
+    font-size: 30px;
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+    background: transparent;
+    color:white;   
+}
+
+.input input:focus {
+    outline: 0;
+}
+
+.input button:hover{
+    opacity: 0.8;
+}
+
+#control {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+#control button {
+    background-color: #522431;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
